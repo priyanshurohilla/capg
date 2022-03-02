@@ -24,6 +24,7 @@ public class Customer {
  public static void main(String[] args) {
   Address a1 = new Address("Bangalore");
   Customer c2 = new Customer(101);
+     System.out.println("abc");
   System.out.print(c2.cid + c2.addr.city);
  }
 }
